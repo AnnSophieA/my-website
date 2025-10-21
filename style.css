@@ -1,3 +1,4 @@
+/* color scheme: #2E1110, #94979A, #858A91, #F2EBEC */
 html {
     height: 100%;
 }
@@ -16,7 +17,7 @@ body {
  }
  
  header {
-    background: linear-gradient(135deg, #09421a 0%, #5a8f5a 100%);
+    background: linear-gradient(135deg, #00297f     0%, #0058ab    100%);
     color: white;
     padding: 60px 20px;
     text-align: center;
@@ -68,14 +69,14 @@ section {
 }
 
 h2 {
-    color: #15440e;
+    color: #0c264d;
     margin-bottom: 20px;
     padding-bottom: 10px;
     border-bottom: 2px solid #f0f0f0;
 }
 
 .skills-subtitle {
-    color: #1e6e1e;
+    color: #000000;
     margin-top: 30px;
     margin-bottom: 15px;
     font-size: 1.1em;
@@ -100,8 +101,17 @@ h2 {
     color: #333;
 }
 
+.course-name {
+    font-size: 1em;
+    color: #693e2d;
+    font-weight: 600;
+    font-style: italic;
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+
 .company {
-    color: #5a8f5a;
+    color: #0058ab;
     font-weight: 600;
 }
 
@@ -119,7 +129,7 @@ h2 {
 }
 
 .skill-tag {
-    background: #39977f;
+    background: #0058ab ;
     color: white;
     padding: 6px 12px;
     border-radius: 20px;
@@ -127,7 +137,7 @@ h2 {
 }
 
 .language-tag {
-    background: #39977f;
+    background: #0058ab;
 }
 
 ul {
@@ -138,6 +148,7 @@ ul {
 li {
     margin-bottom: 8px;
 }
+
 
 @media (max-width: 768px) {
     h1 {
